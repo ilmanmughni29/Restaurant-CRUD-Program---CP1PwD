@@ -32,22 +32,30 @@ Fitur dengan simbol bintang atau *asterisk* (*) adalah fitur yang sensitif, yait
 ### Menu Utama
 <img width="421" height="170" alt="menu utama" src="https://github.com/user-attachments/assets/3f5e91d1-8422-4789-a88b-c3ead001005d" />
 
-Saat program dijalankan, Menu ini yang akan ditampilkan pertama kali
+Saat program dijalankan, Menu ini yang akan ditampilkan pertama kali.
+
+Berikut merupakan diagram alur ketika Menu Utama dijalankan.
+<img width="728" height="751" alt="main menu-main menu drawio" src="https://github.com/user-attachments/assets/5701c1cf-7159-442b-8255-cf82e1244daf" />
 
 
 ### Menambah Menu (Create)
-
+Berikut merupakan diagram alur ketika "Opsi 1: Menambah Menu" dijalankan.
+<img width="876" height="452" alt="create menu-create drawio" src="https://github.com/user-attachments/assets/2d13f56c-4fff-4d4f-b0ec-14e71b066a87" />
 
 ### Menampilkan Menu (Read)
-
+Berikut merupakan diagram alur ketika "Opsi 2: Menampilkan Menu" dijalankan.
+<img width="587" height="382" alt="create menu-read drawio" src="https://github.com/user-attachments/assets/901934d1-5f2f-4ffa-9311-f2f3367aab8e" />
 
 ### Perbaharui Menu (Update)
+Berikut merupakan diagram alur ketika "Opsi 3: Perbaharui Menu" dijalankan.
+<img width="636" height="731" alt="create menu-update drawio" src="https://github.com/user-attachments/assets/cb030a03-219a-4fe8-8810-f09b348edb2b" />
 
 
 ### Recycle Bin (Delete)
-
+Berikut merupakan diagram alur ketika "Opsi 4: Recycle Bin >> Opsi 2: Hapus Menu" dijalankan.
 
 ### Mencari Menu Berdasarkan Kategori (Filter)
+Berikut merupakan diagram alur ketika "Opsi 5: Mencari Menu Berdasarkan Kategori" dijalankan.
 
-
-### Pesan Makanan
+### Pesan Makanan (Order)
+Berikut merupakan diagram alur ketika "Opsi 6: Pesan Makanan" dijalankan.
