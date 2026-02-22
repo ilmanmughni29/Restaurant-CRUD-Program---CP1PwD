@@ -11,7 +11,8 @@ Program ini bertujuan untuk membantu pelaku UMKM F&B untuk membuat aplikasi sede
 3. Teman-teman programmer (Sebagai referensi dan sarana pembelajaran)
 
 ## Fitur
-Program ini didasari dengan konsep CRUD. Yaitu program yang bisa menjalankan fitur untuk CREATE data, READ data, UPDATE data, dan DELETE data
+Program ini didasari dengan konsep CRUD. Yaitu program yang bisa menjalankan fitur untuk CREATE data, READ data, UPDATE data, dan DELETE data.
+
 Berikut merupakan fitur dari aplikasi "Warung Makan Purwadhika":
 1. Menambah Menu*
 2. Menampilkan Menu
@@ -32,40 +33,62 @@ Fitur dengan simbol bintang atau *asterisk* (*) adalah fitur yang sensitif, yait
 ### Menu Utama
 Saat program dijalankan, Menu ini yang akan ditampilkan pertama kali.
 
+
 <img width="467" height="161" alt="menu utama" src="https://github.com/user-attachments/assets/c0c8d33c-7f89-4307-a2fc-bef4f4d8b005" />
+
 
 
 Berikut merupakan diagram alur ketika Menu Utama dijalankan.
 
+
 <img width="728" height="751" alt="main menu-main menu drawio" src="https://github.com/user-attachments/assets/5701c1cf-7159-442b-8255-cf82e1244daf" />
+
 
 
 ### Menambah Menu (Create)
 Berikut merupakan diagram alur ketika "Opsi 1: Menambah Menu" dijalankan.
+
+
 <img width="876" height="452" alt="create menu-create drawio" src="https://github.com/user-attachments/assets/2d13f56c-4fff-4d4f-b0ec-14e71b066a87" />
+
 
 
 ### Menampilkan Menu (Read)
 Berikut merupakan diagram alur ketika "Opsi 2: Menampilkan Menu" dijalankan.
+
+
 <img width="587" height="382" alt="create menu-read drawio" src="https://github.com/user-attachments/assets/901934d1-5f2f-4ffa-9311-f2f3367aab8e" />
+
 
 
 ### Perbaharui Menu (Update)
 Berikut merupakan diagram alur ketika "Opsi 3: Perbaharui Menu" dijalankan.
+
+
 <img width="636" height="731" alt="create menu-update drawio" src="https://github.com/user-attachments/assets/cb030a03-219a-4fe8-8810-f09b348edb2b" />
+
 
 
 ### Recycle Bin (Delete)
 Berikut merupakan diagram alur ketika "Opsi 4: Recycle Bin >> Opsi 2: Hapus Menu" dijalankan.
+
+
 <img width="280" height="681" alt="create menu-delete drawio" src="https://github.com/user-attachments/assets/89f8cdd0-7495-4f39-b634-b18ca9859a5d" />
+
 
 
 ### Mencari Menu Berdasarkan Kategori (Filter)
 Berikut merupakan diagram alur ketika "Opsi 5: Mencari Menu Berdasarkan Kategori" dijalankan.
+
+
 <img width="121" height="291" alt="create menu-search drawio" src="https://github.com/user-attachments/assets/509533dc-b8f4-4078-9bf1-6e9046d390fa" />
+
 
 
 ### Pesan Makanan (Order)
 Berikut merupakan diagram alur ketika "Opsi 6: Pesan Makanan" dijalankan.
+
+
 <img width="759" height="931" alt="create menu-order drawio" src="https://github.com/user-attachments/assets/9fa09355-0ba1-4fe7-a416-ab9e297de625" />
+
 
