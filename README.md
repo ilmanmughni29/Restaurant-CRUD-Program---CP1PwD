@@ -112,3 +112,8 @@ Berikut merupakan diagram alur ketika "Opsi 6: Pesan Makanan" dijalankan.
 <img width="759" height="931" alt="create menu-order drawio" src="https://github.com/user-attachments/assets/9fa09355-0ba1-4fe7-a416-ab9e297de625" />
 
 
+
+## Contributing
+Jika terdapat pertanyaan, mengalami masalah, atau memiliki saran untuk perbaikan, silahkan email ke ilmanmughni29@gmail.com.
+
+We welcome contributions to this project! If you have any inquiries or submit an issue if you encounter any problems or have suggestions for improvements, feel free to email me to ilmanmughni29@gmail.com.
