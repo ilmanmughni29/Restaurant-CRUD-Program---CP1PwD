@@ -3,7 +3,7 @@ Program ini bertujuan untuk membantu pelaku UMKM F&B untuk membuat aplikasi sede
 
 ## Dependency
 1. Python 3.x
-2. *Tabulate* library: Untuk menampilkan data dalam bentuk tabel
+2. ```Tabulate``` library: Untuk menampilkan data dalam bentuk tabel
 
 ## Stakeholders
 1. Pelaku UMKM (User)
