@@ -11,21 +11,24 @@ Program ini bertujuan untuk membantu pelaku UMKM F&B untuk membuat aplikasi sede
 3. Teman-teman programmer (Sebagai referensi dan sarana pembelajaran)
 
 ## Fitur
-Program ini didasari dengan konsep CRUD. Yaitu program yang bisa menjalankan fitur untuk CREATE data, READ data, UPDATE data, dan DELETE data.
+Program ini didasari dengan konsep CRUD. Yaitu program yang bisa menjalankan fitur untuk CREATE data, READ data, UPDATE data, dan DELETE data. Di mana entitas data disimpan di dalam struktur data *dictionary*. *Keys* pada *dictionary* tersebut di antaranya ID, Kategori, Nama, Harga, Stock, dan Notes
 
 Berikut merupakan fitur dari aplikasi "Warung Makan Purwadhika":
 1. Menambah Menu*
-2. Menampilkan Menu
-3. Perbaharui Menu*
-4. Recycle Bin*
+    - Menambah entri data baru sesuai dengan input dari user
+3. Menampilkan Menu
+    - Menampilkan entitas data yang tersimpan di *dictionary* secara spesifik
+    - Data ditampilkan dalam format tabel dengan memanfaatkan *library* ```python tabulate```
+5. Perbaharui Menu*
+6. Recycle Bin*
     - Lihat Recycle Bin
     - Hapus Menu
     - Kembalikan Menu yang Dihapus
     - Kosongkan Recycle Bin
     - Keluar
-6. Mencari Menu Berdasarkan Kategori
-7. Pesan Makanan
-8. Exit Main Menu
+7. Mencari Menu Berdasarkan Kategori
+8. Pesan Makanan
+9. Exit Main Menu
 
 Fitur dengan simbol bintang atau *asterisk* (*) adalah fitur yang sensitif, yaitu hanya bisa diakses sehingga perlu melakukan login dengan memasukkan Username dan Password yang benar.
 
