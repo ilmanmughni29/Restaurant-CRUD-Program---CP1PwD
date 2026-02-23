@@ -11,24 +11,41 @@ Program ini bertujuan untuk membantu pelaku UMKM F&B untuk membuat aplikasi sede
 3. Teman-teman programmer (Sebagai referensi dan sarana pembelajaran)
 
 ## Fitur
-Program ini didasari dengan konsep CRUD. Yaitu program yang bisa menjalankan fitur untuk CREATE data, READ data, UPDATE data, dan DELETE data. Di mana entitas data disimpan di dalam struktur data *dictionary*. *Keys* pada *dictionary* tersebut di antaranya ID, Kategori, Nama, Harga, Stock, dan Notes
+Program ini didasari dengan konsep CRUD. Yaitu program yang bisa menjalankan fitur untuk CREATE data, READ data, UPDATE data, dan DELETE data. Di mana entitas data disimpan di dalam struktur data *dictionary*. *Keys* pada *dictionary* tersebut di antaranya 'ID', 'Kategori', 'Nama', 'Harga', 'Stock', dan 'Notes'.
 
 Berikut merupakan fitur dari aplikasi "Warung Makan Purwadhika":
 1. Menambah Menu*
     - Menambah entri data baru sesuai dengan input dari user
-3. Menampilkan Menu
+    - Menampilkan notifikasi ketika data berhasil ditambahkan
+2. Menampilkan Menu
     - Menampilkan entitas data yang tersimpan di *dictionary* secara spesifik
     - Data ditampilkan dalam format tabel dengan memanfaatkan *library* ```tabulate```
-5. Perbaharui Menu*
-6. Recycle Bin*
+    - Program akan secara otomatis memberikan input "Stock habis" pada kolom 'Notes' ketika stock = 0
+3. Perbaharui Menu*
+    - Memodifikasi data sesuai keinginan user baik pada data 'Kategori', 'Nama', 'Harga', 'Stock', maupun 'Notes'
+    - Menampilkan notifikasi konfirmasi maupun error ketika data berhasil atau gagal diupdate
+4. Recycle Bin*
     - Lihat Recycle Bin
     - Hapus Menu
+       - Menghapus data yang ingin dihilangkan dan memasukkan nya ke dalam *dictionary* ```recycle_bin = []```
+       - Karena ada *dictionary* ```recycle_bin = []```, data tidak secara permanen dihapus, melainkan disimpan sementara sehingga memungkinkan user untuk dapat memulihkan data yang dihapus
     - Kembalikan Menu yang Dihapus
+       - Memulihkan data yang sudah dihapus (masuk ke ```recycle_bin = []```) dan mengembalikan ke ```database = []```
     - Kosongkan Recycle Bin
+       - Menghapus data secara permanen
     - Keluar
-7. Mencari Menu Berdasarkan Kategori
-8. Pesan Makanan
-9. Exit Main Menu
+5. Mencari Menu Berdasarkan Kategori
+    - Menampilkan menu berdasarkan kategori yang diinput oleh user (makanan/minuman/dessert/side dish)
+    - Menampilkan data dalam bentuk tabel
+6. Pesan Makanan
+     - Menu ini mengizinkan *customer*/pelanggan untuk memilih menu yang tersedia di dalam tabel ```database = []```
+     - Setelah memilih menu, pelanggan juga diizinkan untuk memilih jumlah menu yang dipesan
+     - Selain itu, pelanggan juga memungkinkan untuk menambahkan keterangan/*notes* pada menu yang dipilih
+     - Setelah mengetik kata "selesai", akan ditampilkan tabel yang berisi rangkuman pesanan (menu, jumlah, notes, total harga) yang sudah dipilih oleh pelanggan sebelumnya
+     - Program juga akan menampilkan jumlah yang harus dibayar
+     - Pelanggan dapat meng-input nominal pembayaran berdasarkan jumlah yang harus dibayar
+     - Output kembalian juga akan ditampilkan setelah pelanggan memasukkan nominal pembayaran
+7. Exit Main Menu
 
 Fitur dengan simbol bintang atau *asterisk* (*) adalah fitur yang sensitif, yaitu hanya bisa diakses sehingga perlu melakukan login dengan memasukkan Username dan Password yang benar.
 
